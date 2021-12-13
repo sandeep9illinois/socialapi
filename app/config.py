@@ -11,6 +11,6 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int #= 30
 
     class Config: 
-        env_file = "C:\\dev\\restapi\\venv\\.env"
+        env_file = ".env" #"C:\\dev\\restapi\\venv\\.env"
 
 settings = Settings()
