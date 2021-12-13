@@ -1,7 +1,7 @@
 
 
 import imp
-from tkinter import CASCADE
+#from tkinter import CASCADE
 from .database import Base
 from sqlalchemy import TIMESTAMP, Column, ForeignKey, Integer, String, Boolean, null
 from sqlalchemy.sql.expression import text
